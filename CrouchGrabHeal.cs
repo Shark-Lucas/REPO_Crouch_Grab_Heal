@@ -34,9 +34,9 @@ namespace CustomHealthTransfer
             Instance = this;
 
             // 初始化配置
-            CustomTransferInterval = Config.Bind("settings", "interval", 0.5f, "蹲下状态下生命值转移的间隔时间（秒）");
-            CustomHealAmount = Config.Bind("settings", "increase", 2, "蹲下状态下每次治疗的生命值");
-            CustomDamageAmount = Config.Bind("settings", "decrease", 1, "蹲下状态下每次扣除的生命值");
+            CustomTransferInterval = Config.Bind("settings", "interval", 0.5f, "Interval for grab heal while crouching (in seconds) | 蹲下治疗的间隔时间（秒）");
+            CustomHealAmount = Config.Bind("settings", "heal", 3, "Health amount healed each time while crouching | 蹲下治疗治疗队友的生命值");
+            CustomDamageAmount = Config.Bind("settings", "damage", 0, "Health amount deducted each time while crouching | 蹲下治疗扣除自己的生命值");
 
             // 应用Harmony补丁
             Harmony harmony = new Harmony("REPO.CrouchGrabHeal");
