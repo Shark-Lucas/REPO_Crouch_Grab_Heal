@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterGrabHeal", "BetterGrabHeal.csproj", "{DCBCD0C9-C873-E8B8-B0F5-9E51E6D976CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCBCD0C9-C873-E8B8-B0F5-9E51E6D976CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCBCD0C9-C873-E8B8-B0F5-9E51E6D976CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCBCD0C9-C873-E8B8-B0F5-9E51E6D976CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCBCD0C9-C873-E8B8-B0F5-9E51E6D976CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CA13A0A-AB8D-4B0B-A615-30E37EDFF2C0}
+	EndGlobalSection
+EndGlobal
