@@ -58,8 +58,6 @@ namespace CustomHealthTransfer
                     return true; // 非主机直接执行原始方法
                 }
 
-                Instance.Logger.LogInfo("Run");
-
                 /* 以下为原始代码 */
                 if (isTumblingRef(__instance.playerAvatar) || SemiFunc.RunIsShop() || SemiFunc.RunIsArena())
                 {
