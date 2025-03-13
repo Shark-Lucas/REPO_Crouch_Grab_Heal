@@ -1,6 +1,6 @@
 {
     "name": "CrouchGrabHeal",
-    "version_number": "1.0.0",
+    "version_number": "1.0.1",
     "website_url": "https://github.com/Shark-Lucas/REPO_Crouch_Grab_Heal",
     "description": "Grab neck while crouching to customize heal. all configurable in cfg file. 蹲下抓住脖子进行自定义治疗.",
     "dependencies": [
